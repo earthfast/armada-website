@@ -1,0 +1,421 @@
+body {
+    background: #00041A url('/images/Armada_ISO_grid_hero_bg.png') no-repeat top center;
+}
+
+#top-nav {
+    padding: 5vh 8vw;
+}
+
+#bottom-nav {
+    padding: 2rem 8vw 4rem;
+}
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+.nav-item {
+    margin: auto 0 auto 1.5rem;
+}
+
+.nav-item img {
+    width: 32px;
+    height: 32px;
+}
+
+#hero {
+    margin: 0;
+    padding: 5vh 0 6rem 0;
+}
+
+#hero h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 92px;
+
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 0px 0px 48px rgba(142, 0, 255, 0.64);
+}
+
+#hero p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #CBCBCB;
+    text-align: center;
+
+    margin: 2rem 15% 0 15%;
+}
+
+#hero button {
+    border: none;
+    padding: 0.7em 4em;
+    margin: 4rem 0;
+
+    background: #8E0091;
+    box-shadow: 0px 6px 100px rgba(142, 0, 255, 0.4);
+    border-radius: 6px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+
+#hero button:hover {
+    box-shadow: 0px 6px 100px rgba(142, 0, 255, 0.6);
+}
+
+#hero h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+
+    color: #797979;
+    text-align: center;
+    letter-spacing: 0.335em;
+}
+
+#hero .partners h2 {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+#hero .partners img {
+    max-height: 30px;
+    max-width: 200px;
+}
+
+.section {
+    padding: 6rem 5rem;
+}
+
+.section h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+
+    color: #FFFFFF;
+}
+
+.section p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #BBBBBB;
+
+    margin-top: 1rem;
+}
+
+.section .diagram {
+    text-align: center;
+}
+
+.section .diagram img {
+    max-width: 100%;
+    max-height: 250px;
+}
+
+#decentralized.section .diagram img,
+#secure.section .diagram img {
+    filter: drop-shadow(0px 0px 25px #008FE0);
+}
+
+#easy.section .diagram img {
+    filter: drop-shadow(0px 0px 70px rgba(142, 0, 255, 0.64));
+}
+
+.section-left {
+    background: #000627 url('/images/Globe.svg') no-repeat left center;
+}
+
+.section-right {
+    background: #120321 url('/images/Sunflower.svg') no-repeat right center;
+}
+
+#decentralized ul {
+    padding: 0;
+}
+
+#decentralized ul li {
+    display: inline;
+    margin-right: 2rem;
+}
+
+#secure .diagram img {
+    mix-blend-mode: screen;
+}
+
+#fast .diagram h1 {
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#fast .diagram img {
+    margin: 1rem 0;
+}
+
+#fast .diagram .citation {
+    color: #BBBBBB;
+    font-size: 12px;
+    text-align: center;
+}
+
+#fast .citation a {
+    color: #BBBBBB;
+}
+
+#trusted {
+    background: #000627 url('/images/Dome.svg') no-repeat center 30px;
+}
+
+#trusted.section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#trusted h1 {
+    text-align: center;
+}
+
+#trusted h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #BBBBBB;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    margin: 1rem 0 3rem 0;
+}
+
+#testimonials p {
+    font-style: italic;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+
+    padding: 0;
+    margin: 0;
+}
+
+#testimonials p::before {
+    content: open-quote;
+}
+
+#testimonials p::after {
+    content: close-quote;
+}
+
+#testimonials img {
+    max-height: 40px;
+    max-width: 200px;
+}
+
+#testimonials .carousel-inner {
+    height: 10rem;
+}
+
+#testimonials .carousel-control-prev {
+    left: auto;
+    bottom: auto;
+}
+
+#testimonials .carousel-control-prev-icon {
+    background-image: url('/images/Left\ arrow.svg');
+}
+
+#testimonials .carousel-control-next {
+    right: auto;
+    bottom: auto;
+}
+
+#testimonials .carousel-control-next-icon {
+    background-image: url('/images/Right\ arrow.svg');
+}
+
+#testimonials .carousel-indicators {
+    position: static;
+    margin-bottom: 0;
+}
+
+@media (max-width: 1400px) {
+    #testimonials .carousel-inner {
+        height: 12rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    #hero {
+        padding: 8vh 0;
+    }
+
+    #hero h1 {
+        font-size: 72px;
+    }
+
+    #hero p {
+        font-size: 16px;
+        margin-top: 2rem;
+    }
+
+    #hero button {
+        font-size: 18px;
+    }
+
+    .section {
+        padding: 3.5rem;
+    }
+
+    .section h1 {
+        font-size: 36px;
+    }
+
+    .section p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-brand img {
+        height: 40px;
+    }
+
+    .nav-item {
+        margin-left: 1rem;
+    }
+
+    .nav-item img {
+        width: 28px;
+        height: 28px;
+    }
+
+    #hero {
+        padding: 3vh 0 5vh;
+    }
+
+    #hero h1 {
+        font-size: 48px;
+    }
+
+    #hero button {
+        font-size: 16px;
+        margin: 3rem 0;
+    }
+
+    .section {
+        padding: 2rem;
+    }
+
+    .section h1 {
+        font-size: 24px;
+    }
+
+    #fast .diagram h1 {
+        font-size: 14px;
+        margin-top: 1rem;
+    }
+
+    #bottom-nav {
+        padding-top: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-item {
+        margin-left: 0;
+    }
+
+    .nav-item img {
+        width: 24px;
+        height: 24px;
+    }
+
+    #hero {
+        padding: 2vh 0 3vh;
+    }
+
+    #hero h1 {
+        font-size: 42px;
+        margin: 0 3vw;
+    }
+
+    #hero p {
+        margin: 2rem 10vw 0 10vw;
+    }
+
+    #trusted h2 {
+        margin-bottom: 1rem;
+    }
+
+    #testimonials .carousel-inner {
+        height: 19rem;
+    }
+
+    #testimonials .carousel-item {
+        height: 100%;
+        align-items: center;
+    }
+
+    #testimonials .carousel-item.active,
+    #testimonials .carousel-item-next,
+    #testimonials .carousel-item-prev {
+        display: flex;
+    }
+}
+
+.wiggle {
+    animation-name: wiggle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wiggle {
+    0.0% {
+        transform: rotate(0deg);
+    }
+
+    96.0% {
+        transform: rotate(0deg);
+    }
+
+    96.5% {
+        transform: rotate(10deg);
+    }
+
+    97.5% {
+        transform: rotate(-10deg);
+    }
+
+    98.5% {
+        transform: rotate(10deg);
+    }
+
+    99.0% {
+        transform: rotate(0deg);
+    }
+
+    100.0% {
+        transform: rotate(0deg);
+    }
+}
