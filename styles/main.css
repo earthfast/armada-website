@@ -1,5 +1,5 @@
 body {
-    background: #00041A url('/images/Armada_ISO_grid_hero_bg.png') no-repeat top center;
+    background: #00041A url('../images/Armada_ISO_grid_hero_bg.png') no-repeat top center;
 }
 
 #top-nav {
@@ -140,11 +140,11 @@ body {
 }
 
 .section-left {
-    background: #000627 url('/images/Globe.svg') no-repeat left center;
+    background: #000627 url('../images/Globe.svg') no-repeat left center;
 }
 
 .section-right {
-    background: #120321 url('/images/Sunflower.svg') no-repeat right center;
+    background: #120321 url('../images/Sunflower.svg') no-repeat right center;
 }
 
 #decentralized ul {
@@ -184,7 +184,7 @@ body {
 }
 
 #trusted {
-    background: #000627 url('/images/Dome.svg') no-repeat center 30px;
+    background: #000627 url('../images/Dome.svg') no-repeat center 30px;
 }
 
 #trusted.section {
@@ -244,7 +244,7 @@ body {
 }
 
 #testimonials .carousel-control-prev-icon {
-    background-image: url('/images/Left\ arrow.svg');
+    background-image: url('../images/Left\ arrow.svg');
 }
 
 #testimonials .carousel-control-next {
@@ -253,7 +253,7 @@ body {
 }
 
 #testimonials .carousel-control-next-icon {
-    background-image: url('/images/Right\ arrow.svg');
+    background-image: url('../images/Right\ arrow.svg');
 }
 
 #testimonials .carousel-indicators {
