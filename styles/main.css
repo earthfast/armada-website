@@ -53,6 +53,7 @@ body {
 
 #hero a.button {
     appearance: button;
+    display: inline-block;
     border: none;
     padding: 0.7em 4em;
     margin: 4rem 0;
